@@ -64,7 +64,7 @@ $(function() {
                 //将登录成功后得到的token，保存到localstorage
                 localStorage.setItem('token', res.token);
                 //跳转后台主页
-                location.href = '/index.html';
+                location.href = '/home/index.html';
             }
         })
     })
