@@ -14,6 +14,8 @@ $(function() {
           });
 
     })
+
+    
 })
 //获取用户基本信息
 function getUserInfo (){
@@ -45,7 +47,7 @@ function reendeerAvatar(data){
         $('.text-avatar').hide()
     }else{
         $('.layui-nav-img').hide()
-        var frist = name[0].totoUpperCase
+        var frist = name[0].toUpperCase();
         $('.text-avatar').html(frist).show()
     }
 }
